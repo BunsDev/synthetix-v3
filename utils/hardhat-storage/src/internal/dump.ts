@@ -1,6 +1,7 @@
 import { findAll } from '@synthetixio/core-utils/utils/ast/finders';
 import { clone } from '@synthetixio/core-utils/utils/misc/clone';
 import { SourceUnit } from 'solidity-ast/types';
+import { createNameHash } from './create-name-hash';
 import { iterateContracts, iterateSlotAssignments } from './iterators';
 import { render } from './render';
 
@@ -29,6 +30,10 @@ export async function dumpStorage(
     const fqName = `${sourceName}:${contractName}`;
 
     const resultNode = clone(contractNode);
+
+    // Add a hash of the source name so contracts with the same name in different
+    // packages don't collide.
+    resultNode.name = `s_${createNameHash(sourceName)}_${contractName}`;
 
     const constDeclarations = findAll(
       contractNode,

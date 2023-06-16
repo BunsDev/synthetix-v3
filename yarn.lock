@@ -2787,8 +2787,10 @@ __metadata:
     "@synthetixio/router": ^3.1.2
     "@usecannon/builder": 2.4.15
     cannon-plugin-router: 1.0.11
+    ethers: ^5.7.2
     hardhat: 2.13.0
     hardhat-cannon: 2.4.15
+    solidity-coverage: 0.8.2
   languageName: unknown
   linkType: soft
 

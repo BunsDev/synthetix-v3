@@ -53,23 +53,20 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-no-only-tests": "3.1.0",
     "pre-commit": "1.2.2",
-    "prettier": "2.8.0",
+    "prettier": "^2.8.8",
     "prettier-plugin-solidity": "1.0.0",
     "pretty-quick": "3.1.3",
     "solhint": "3.3.7",
     "solhint-plugin-numcast": "1.0.0",
     "typescript": "4.9.3"
   },
-  "resolutions": {
-    "@synthetixio/router": "workspace:*"
-  },
   "pre-commit": [
     "lint:quick"
   ],
   "workspaces": [
-    "utils/*",
-    "protocol/*",
-    "markets/*"
+    "utils/**",
+    "protocol/**",
+    "markets/**"
   ],
   "engines": {
     "node": "^18.16.0"

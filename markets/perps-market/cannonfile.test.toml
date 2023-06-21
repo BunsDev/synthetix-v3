@@ -19,7 +19,7 @@ defaultValue = "synthetix-spot-market:<%= package.version %>-testable"
 [provision.synthetix]
 source = "<%= settings.synthetixPackage %>"
 
-[import.spotMarket]
+[provision.spotMarket]
 source = "<%= settings.spotMarketPackage %>"
 
 [contract.PerpsMarketFactoryModule]
@@ -125,7 +125,7 @@ func = "setSpotMarket"
 args = [
   "<%= imports.spotMarket.contracts.SpotMarketProxy.address %>",
 ]
-depends = ["invoke.upgrade_proxy", "import.spotMarket"]
+depends = ["invoke.upgrade_proxy", "provision.spotMarket"]
 
 [invoke.init_account]
 target = ["PerpsMarketProxy"]

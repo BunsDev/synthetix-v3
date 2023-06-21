@@ -46,6 +46,8 @@ jobs:
             workspace: "@synthetixio/perps-market"
           - package: main
             workspace: "@synthetixio/main"
+      fail-fast: true
+      max-parallel: 1
     steps:
       - name: Install Foundry (Cannon)
         uses: foundry-rs/foundry-toolchain@v1

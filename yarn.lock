@@ -2528,11 +2528,11 @@ __metadata:
     "@synthetixio/hardhat-storage": "workspace:*"
     "@typechain/ethers-v5": 10.1.0
     "@typechain/hardhat": 6.1.3
-    "@usecannon/builder": 2.4.15
+    "@usecannon/builder": 2.4.16
     cannon-plugin-router: 1.0.11
     dotenv: 16.0.1
     hardhat: 2.13.0
-    hardhat-cannon: 2.4.15
+    hardhat-cannon: 2.4.17
     hardhat-contract-sizer: 2.1.1
     hardhat-gas-reporter: 1.0.9
     hardhat-ignore-warnings: 0.2.5
@@ -2620,7 +2620,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@synthetixio/docgen@workspace:utils/docgen"
   dependencies:
-    "@usecannon/cli": 2.4.15
+    "@usecannon/cli": 2.4.17
     handlebars: 4.7.7
     solidity-ast: 0.4.46
     solidity-docgen: 0.6.0-beta.35
@@ -2700,7 +2700,7 @@ __metadata:
     "@synthetixio/oracle-manager": "workspace:*"
     "@synthetixio/router": ^3.1.2
     "@synthetixio/wei": 2.74.4
-    "@usecannon/builder": 2.4.15
+    "@usecannon/builder": 2.4.16
     ethers: ^5.7.2
     hardhat: 2.13.0
     solidity-ast: 0.4.46
@@ -2743,7 +2743,7 @@ __metadata:
     "@synthetixio/router": ^3.1.2
     "@synthetixio/spot-market": "workspace:*"
     "@synthetixio/wei": 2.74.4
-    "@usecannon/cli": 2.4.15
+    "@usecannon/cli": 2.4.17
     ethers: ^5.7.2
     hardhat: 2.13.0
     solidity-docgen: 0.6.0-beta.35
@@ -2785,10 +2785,10 @@ __metadata:
     "@synthetixio/core-utils": "workspace:*"
     "@synthetixio/hardhat-storage": "workspace:*"
     "@synthetixio/router": ^3.1.2
-    "@usecannon/builder": 2.4.15
+    "@usecannon/builder": 2.4.16
     cannon-plugin-router: 1.0.11
     hardhat: 2.13.0
-    hardhat-cannon: 2.4.15
+    hardhat-cannon: 2.4.17
   languageName: unknown
   linkType: soft
 
@@ -2806,7 +2806,7 @@ __metadata:
     "@synthetixio/router": ^3.1.2
     "@synthetixio/wei": 2.74.4
     "@types/node-fetch": 2.6.4
-    "@usecannon/cli": 2.4.15
+    "@usecannon/cli": 2.4.17
     ethers: ^5.7.2
     hardhat: 2.13.0
     node-fetch: 2.6.9
@@ -3407,9 +3407,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@usecannon/builder@npm:2.4.15, @usecannon/builder@npm:^2.4.15":
-  version: 2.4.15
-  resolution: "@usecannon/builder@npm:2.4.15"
+"@usecannon/builder@npm:2.4.16, @usecannon/builder@npm:^2.4.16":
+  version: 2.4.16
+  resolution: "@usecannon/builder@npm:2.4.16"
   dependencies:
     ajv: ^8.11.0
     axios: ^1.2.2
@@ -3421,17 +3421,17 @@ __metadata:
     promise-events: ^0.2.4
   peerDependencies:
     ethers: ">=5.6.0"
-  checksum: b1dc51af1d340ffbe77359d570f41bc924c303f5ec2cb93d711995ce96ee84d07c0f748379047987f968934c42eadc8e89ece21a5436ad05489c324c34dd7091
+  checksum: c9c7049a84f6b843e1a8c4a7714d03c544b28a9f8c89572e986c441ec1fdc5dc4df95ff8329b79d149b3f190b860e5f94215b1812d8ec050c51426e89e373bb4
   languageName: node
   linkType: hard
 
-"@usecannon/cli@npm:2.4.15, @usecannon/cli@npm:^2.4.15":
-  version: 2.4.15
-  resolution: "@usecannon/cli@npm:2.4.15"
+"@usecannon/cli@npm:2.4.17, @usecannon/cli@npm:^2.4.17":
+  version: 2.4.17
+  resolution: "@usecannon/cli@npm:2.4.17"
   dependencies:
     "@iarna/toml": ^3.0.0
     "@synthetixio/wei": ^2.74.1
-    "@usecannon/builder": ^2.4.15
+    "@usecannon/builder": ^2.4.16
     chalk: ^4.1.2
     commander: ^9.3.0
     debug: ^4.3.4
@@ -3447,7 +3447,7 @@ __metadata:
     untildify: ^4.0.0
   bin:
     cannon: dist/bin/cannon.js
-  checksum: 30a46344045514f54f56399ef97251a3c9c0ed16cc3756eeee84dc960e90534966ca7b969b60ef74d56c9bda16c64e24b67de8d98143a7e7c15983faf8e2e795
+  checksum: c658e149e6fc527bda0ce9d032a6341a4cde5adfd318098f58bb52c4936c1c4e46568b7c18a91b1b37ccbd4840d0977776efdc39ec32abb12d1f8e8e3a656871
   languageName: node
   linkType: hard
 
@@ -8179,13 +8179,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hardhat-cannon@npm:2.4.15":
-  version: 2.4.15
-  resolution: "hardhat-cannon@npm:2.4.15"
+"hardhat-cannon@npm:2.4.17":
+  version: 2.4.17
+  resolution: "hardhat-cannon@npm:2.4.17"
   dependencies:
     "@iarna/toml": ^3.0.0
-    "@usecannon/builder": ^2.4.15
-    "@usecannon/cli": ^2.4.15
+    "@usecannon/builder": ^2.4.16
+    "@usecannon/cli": ^2.4.17
     adm-zip: ^0.5.9
     ajv: ^8.10.0
     chalk: ^4.1.2
@@ -8202,7 +8202,7 @@ __metadata:
     "@nomiclabs/hardhat-ethers": ^2.0.0
     "@nomiclabs/hardhat-etherscan": ^3.0.0
     hardhat: ^2.0.0
-  checksum: d50bbc75172d70c02f50b8ff725e6045916d7d98f4499d3d6188c97726c2ca705e6fceff466827b93645a0925db3865b7628efa38aaa1165db25eae16a1c1c0c
+  checksum: d854831f532579f48aae373ab84cb4e154fbdaf4ddd8da3da30c4aa580d6778b823ba73777fc926b3519a0876fca6298dbbbcfe3c95010f878a10150efcc2f1c
   languageName: node
   linkType: hard
 
@@ -14884,7 +14884,7 @@ __metadata:
     "@types/node": 18.11.10
     "@typescript-eslint/eslint-plugin": 5.45.0
     "@typescript-eslint/parser": 5.45.0
-    "@usecannon/cli": 2.4.15
+    "@usecannon/cli": 2.4.17
     eslint: 8.29.0
     eslint-config-prettier: 8.5.0
     eslint-plugin-no-only-tests: 3.1.0

@@ -17,9 +17,9 @@
     "@synthetixio/core-utils": "workspace:*",
     "@synthetixio/hardhat-storage": "workspace:*",
     "@synthetixio/router": "^3.1.2",
-    "@usecannon/builder": "2.4.15",
+    "@usecannon/builder": "2.4.16",
     "cannon-plugin-router": "1.0.11",
     "hardhat": "2.13.0",
-    "hardhat-cannon": "2.4.15"
+    "hardhat-cannon": "2.4.17"
   }
 }
